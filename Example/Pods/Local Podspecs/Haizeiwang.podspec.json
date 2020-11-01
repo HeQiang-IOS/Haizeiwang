@@ -1,0 +1,35 @@
+{
+  "name": "Haizeiwang",
+  "version": "0.1.0",
+  "summary": "私有组件 Haizeiwang.",
+  "description": "基于自己封装的私有网络库，搭建Haizeiwang 私有组件，xib，图片资源的使用",
+  "homepage": "https://github.com/HeQiang-IOS/Haizeiwang",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "heqiang2011": "2373649424@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/HeQiang-IOS/Haizeiwang.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source_files": "Haizeiwang/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "JSONModel": [
+
+    ],
+    "HQAFNetworking": [
+
+    ]
+  }
+}
