@@ -15,7 +15,10 @@
 }
 - (void)showCellForCarModel:(CarModel *)model {
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    UIImage *image = [UIImage imageNamed:@"Haizeiwang.bundle/LuFei" inBundle:bundle compatibleWithTraitCollection:nil];
+    NSURL *bundleURL = [bundle URLForResource:@"Haizeiwang" withExtension:@"bundle"];
+    NSBundle *resourceBundle = [NSBundle bundleWithURL: bundleURL];
+    UIImage *image = [UIImage imageNamed:@"LuFei" inBundle:resourceBundle compatibleWithTraitCollection:nil];
+//    UIImage *image = [UIImage imageNamed:@"Haizeiwang.bundle/LuFei" inBundle:bundle compatibleWithTraitCollection:nil];
     self.imageView.image = image;
     self.downLabel.text = model.price;
     self.upLabel.text = model.name;

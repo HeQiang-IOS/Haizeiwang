@@ -7,6 +7,7 @@
 //
 
 #import "HQViewController.h"
+#import <Haizeiwang/Test2.h>
 
 @interface HQViewController ()
 
@@ -20,6 +21,10 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSLog(@"1222222");
+    [[Test2 new] checkTokenForToken:@"123" AndViewController:self];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

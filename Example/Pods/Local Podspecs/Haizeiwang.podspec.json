@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "heqiang2011": "2373649424@qq.com"
+    "heqiang2011": "heqiang2011@163.com"
   },
   "source": {
     "git": "https://github.com/HeQiang-IOS/Haizeiwang.git",
@@ -20,6 +20,11 @@
   },
   "requires_arc": true,
   "source_files": "Haizeiwang/Classes/**/*",
+  "resource_bundles": {
+    "Haizeiwang": [
+      "Haizeiwang/Assets/*.png"
+    ]
+  },
   "frameworks": [
     "UIKit",
     "Foundation"

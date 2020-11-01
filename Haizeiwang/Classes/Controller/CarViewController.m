@@ -49,7 +49,7 @@
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(back)];
 
     NSBundle *bundle = [NSBundle bundleForClass:[CarTableViewCell class]];
-
+    NSLog(@"%@",bundle);
     [self.tableView registerNib:[UINib nibWithNibName:@"CarTableViewCell" bundle:bundle] forCellReuseIdentifier:@"CarTableViewCellID"];
    
     
