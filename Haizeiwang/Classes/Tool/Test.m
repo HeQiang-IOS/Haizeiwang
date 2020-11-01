@@ -6,13 +6,10 @@
 //
 
 #import "Test.h"
-#import <AFNetworking/AFNetworking.h>
+
 @implementation Test
 
 - (void)test {
-//    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-//            NSLog(@"AFNetworkReachabilityStatus: %@", AFStringFromNetworkReachabilityStatus(status));
-//    }];
-//    [[AFNetworkReachabilityManager sharedManager] startMonitoring];
+
 }
 @end
